@@ -1,0 +1,13 @@
+<script>
+   let n=prompt("Enter the number");
+   
+   let ter=1,re=2;
+   for(let i=1;i<=n;i++)
+   {
+       let m=ter*re;
+       re=ter;
+       ter=m;
+       document.write(ter+",");
+   }
+</script>
+<!-- 18)	1	2	2	4	8	32	…… n terms -->

@@ -1,0 +1,16 @@
+<script>
+    let n = prompt("Enter the Number");
+    n=parseInt(n);
+    let ex=n;
+    let me=0;
+    while(n!=0)
+    {
+        let red=n%10;
+        me=(me*10)+red;
+        n=parseInt(n/10);
+    }
+    if(ex==me) document.write(" This is Palindrome : "+me);
+    else document.write("This isn't Palindrome ");
+
+</script>
+<!-- 37)	WAP to check whether entered number is palindrome or not-->

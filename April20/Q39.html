@@ -1,0 +1,22 @@
+<script>
+    let n=prompt("Enter the number ");
+    
+    let tem=n;
+    let sum=0;
+    while(n!=0)
+    {
+        let f=1;
+        let rem=n%10;
+        for(let i=1;i<=rem;i++)
+        {
+            f*=i;
+        }   
+        sum+=f;
+        n=parseInt(n/10);
+        document.write();
+    }
+    if(sum==tem) document.write(" This is Strong number :"+sum);
+    else document.write(" This number isn't strong number ");
+    
+</script>
+<!-- 39)	WAP to check whether entered number is strong or not -->
