@@ -1,0 +1,13 @@
+<script>
+   let n=prompt("Enter a binary number : ");
+   let sum=0,i=0;
+   while(n!=0)
+   {
+    let rem=n%10;
+    sum+=rem*Math.pow(2,i);
+    n=parseInt(n/10);
+    i++;
+   }
+    document.write("Decimal number is : "+sum);
+</script>
+<!-- 43)	WAP to convert binary number into decimal number -->

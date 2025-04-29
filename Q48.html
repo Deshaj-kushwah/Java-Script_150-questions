@@ -1,0 +1,16 @@
+<script>
+     let fir=prompt("Enter first number: ");
+      fir=parseInt(fir);
+     let sec=prompt("Enter second number: ");
+      sec=parseInt(sec);
+
+    for(let i=fir;i<=sec;i++)
+    {
+        for(let j=1;j<=i;j++)
+        {
+          if(i%j==0) document.write(j+",");
+        }
+        document.write("<br>");
+    }
+</script>
+<!-- 48)	WAP to find out the factors of all the numbers between two entered numbers -->

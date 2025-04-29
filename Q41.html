@@ -1,0 +1,18 @@
+<script>
+    let num1 = prompt("Enter first number: ");
+     num1 = parseInt(num1);
+    let num2 = prompt("Enter second number: ");
+     num2 = parseInt(num2);
+ 
+     let gcd=0;
+     for(let i=1;i<=num1;i++)
+     {
+        if(num1%i==0 && num2%i==0)
+        {
+            gcd=i;
+        }
+     }
+     let lcm=parseInt(num1*num2/gcd);
+     document.write("LCM of " + num1 + " and " + num2 + " is: " + lcm);
+</script>
+<!--  41)	WAP to find out LCM of a number-->

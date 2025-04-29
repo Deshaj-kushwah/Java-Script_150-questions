@@ -1,0 +1,20 @@
+<script>
+      let fir=prompt("Enter first number ");
+    fir=parseInt(fir); 
+    let sec=prompt("Enter second number ");
+    sec=parseInt(sec);
+
+    for(let i=fir;i<=sec;i++)
+    {
+        let ex=i;
+        let me=0;
+        while(ex!=0)
+         {
+           let red=ex%10;
+           me=(me*10)+red;
+           ex=parseInt(ex/10);
+         }
+        if(i==me) document.write(" This is Palindrome : "+me+"<br>");
+    }
+</script>
+<!-- 50)  WAP to find out all the palindrome numbers between two entered numbers -->
